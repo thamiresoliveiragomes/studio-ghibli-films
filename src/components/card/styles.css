@@ -1,0 +1,69 @@
+.card{
+	width: 239px;
+  height: 358px;
+	margin: 2%;
+  transform-style: preserve-3d;
+	transition: all 0.4s ease;
+}
+
+.card:hover{
+	transform: rotateY(180deg)
+}
+
+.card-front{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+	background: white;
+	border-radius: 10px;
+	box-shadow: 10px 7px 18px -9px rgba(168,166,168,1);
+	color: white;
+}
+
+.card-back{
+	width: 100%;
+	height: 100%;
+  backface-visibility: hidden;
+  overflow: hidden;
+	transform: rotateY(180deg);
+	background: white;
+	border-radius: 8px;
+	box-shadow: 10px 7px 18px -9px rgba(168,166,168,1);
+}
+
+.card-image{
+	border-radius: 10px;
+}
+
+.card-title{
+	background-image: linear-gradient(120deg, #1ba0d0 0%, #72e7c5 100%);
+	margin: 0;
+	color: #fff;
+	font-family: 'Be Vietnam', sans-serif;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 1;
+}
+.card-description{
+	text-align: justify;
+	padding: 15px;
+	margin: 0;
+	color: #565656;
+}
+
+.card-director{
+	margin: 0;
+	color: #373737;
+}
+
+.card-icon{
+	width: 12%;
+	margin: 3%;
+}

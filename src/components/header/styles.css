@@ -1,0 +1,14 @@
+.header{
+	margin: 2% 0;
+}
+
+@media only screen and (max-width: 600px) {
+	.header{
+		margin: 6% 0;
+	}
+
+	.logo{
+		width: 75%;
+	}
+
+}
