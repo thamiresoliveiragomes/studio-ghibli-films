@@ -11,8 +11,8 @@
 
 .film-title{
 	background: linear-gradient(120deg, #1ba0d0 0%, #72e7c5 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
 }
 
 .film-description{
